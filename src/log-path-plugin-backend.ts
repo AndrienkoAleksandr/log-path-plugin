@@ -17,7 +17,6 @@ export function start(context: theia.PluginContext) {
         //const logChannel = theia.window.createOutputChannel("My logs");
         //logChannel.appendLine("Hello from plugin!");
 
-        console.log("Some *************************.")
         console.log(context.logPath);
         console.log(context.extensionPath);
     }));
